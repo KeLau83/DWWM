@@ -1,0 +1,66 @@
+html, body, h1, h2, img, ul, li{
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+    list-style-type: none;
+    font-family: 'garamond', Arial, sans-serif;
+}
+
+.computeur{
+    display: none;
+}
+
+h1 , h2{
+    color: grey;
+}
+
+h1{
+    margin:15px 0px;
+}
+
+body{
+    bottom: 30px;
+}
+
+.pp{
+    width: 100px;
+    margin-top: 30px;
+}
+
+
+
+.title{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.icons{
+    width: 45px;
+}
+
+
+.box{
+    margin:10px;
+    border: solid 2px grey;
+    border-radius: 40px;
+    margin:10px 50px;
+}
+
+.box li {
+    margin: 15px 0px;
+}
+
+footer ,header{
+    height: 50px;
+    background-color:grey ;
+    margin:12px;
+}
+
+footer{
+    margin-top: 50px;
+}
+
+header{
+    margin-bottom: 50px;
+}
