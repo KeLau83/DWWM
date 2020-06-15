@@ -1,13 +1,11 @@
-@media screen and (min-width: 700px) and (max-width: 90000px) {
+@media print{
     .top{
         display: flex;
         justify-content: space-around;
         align-items: center;
         margin-bottom: 30px;
     }
-}
 
-@media screen and (min-width: 800px) and (max-width: 90000px) {
     .containers{
         display: flex;
         flex-wrap: wrap;
@@ -22,13 +20,11 @@
         border-radius: 30px;
         width: 200px;
     }
-    
-    /* .computeur{
-        display: flex;
+    .qrcode{
+        display: block;
         position: absolute;
-        z-index: -1;
-        opacity: 7%;
-        width: 60%;
-        margin: 315px 20%;
-    }     */
+        width: 90px;
+        bottom: 20px;
+        right: 20px;
+    }
 }

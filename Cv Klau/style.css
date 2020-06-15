@@ -12,22 +12,25 @@ html, body, h1, h2, img, ul, li{
 
 h1 , h2{
     color: grey;
+    text-transform: uppercase;
 }
 
-h1{
-    margin:15px 0px;
+h2{
+    text-decoration: underline;
 }
 
 body{
     bottom: 30px;
 }
 
+ul{
+    background-color: #f7f0f0;
+}
+
 .pp{
     width: 100px;
     margin-top: 30px;
 }
-
-
 
 .title{
     display:flex;
@@ -38,7 +41,6 @@ body{
 .icons{
     width: 45px;
 }
-
 
 .box{
     margin:10px;
@@ -63,4 +65,8 @@ footer{
 
 header{
     margin-bottom: 50px;
+}
+
+.qrcode{
+    display: none;
 }
